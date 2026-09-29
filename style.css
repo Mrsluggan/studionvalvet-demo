@@ -71,7 +71,7 @@ a.bubble:hover{transform:scale(1.06)}
 /* tjänster */
 #tjanster{position:relative;overflow:hidden}
 #tjanster::after{content:"";position:absolute;right:-6%;top:0;bottom:0;width:38%;background:url("img/valvdorr.jpg") center/cover;opacity:.14;filter:grayscale(1);pointer-events:none;z-index:-1;-webkit-mask-image:radial-gradient(closest-side,#000 35%,transparent);mask-image:radial-gradient(closest-side,#000 35%,transparent)}
-.services{display:flex;flex-wrap:wrap;justify-content:center;gap:34px 44px;margin-top:40px}
+.services{display:flex;flex-wrap:wrap;justify-content:center;gap:84px 44px;margin-top:40px;padding-bottom:40px}
 .svc{position:relative;width:300px;height:300px;display:grid;place-items:center;padding:74px 42px 40px;text-align:center;font-size:14.5px;line-height:1.5}
 .svc svg{position:absolute;inset:-34px;width:calc(100% + 68px);height:calc(100% + 68px);overflow:visible;pointer-events:none}
 .svc text{font:400 27px var(--head);fill:var(--orange);letter-spacing:.5px}
@@ -165,4 +165,22 @@ a.logo-card:hover,a.case:hover{transform:scale(1.03)}
 @media (max-width:900px){.case-hero .wrap{grid-template-columns:1fr}.g3,.g4{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:520px){.g2,.g3{grid-template-columns:1fr}.case-hero .logo-card{height:140px}.case-hero .logo-card img{max-height:96px}}
 
+/* tjänstelänkar och tjänstesidor */
+a.svc{text-decoration:none;color:inherit}
+a.svc:hover{border-color:#fff}
+.svc .more{position:absolute;bottom:-40px;left:0;right:0;font:400 19px/1 var(--head);color:var(--orange)}
+a.svc:hover .more{color:#fff}
+#om p{margin:0 auto 18px}
+#om .pill{margin-top:16px}
+.hero-ring{width:340px;height:340px;margin:30px auto 0;padding:80px 46px 46px;font-size:15px}
+.hero-ring text{font-size:30px}
+.embed{border:3px solid var(--orange);border-radius:26px;overflow:hidden;box-shadow:var(--glow);background:#000}
+.embed iframe{display:block;width:100%;border:0}
+.embed.reel{max-width:420px}
+.embed.reel iframe{height:760px}
+.credit{margin-top:10px;font-size:14px;color:var(--grey)}
+.links{display:flex;flex-wrap:wrap;gap:14px;margin-top:22px}
+.see-case{display:inline-block;margin-top:18px;font:400 20px/1 var(--head);color:var(--orange);text-decoration:none}
+.see-case:hover{color:#fff}
+@media (max-width:420px){.hero-ring{width:300px;height:300px;padding:72px 38px 40px;font-size:14px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}html{scroll-behavior:auto}}
