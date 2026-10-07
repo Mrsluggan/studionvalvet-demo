@@ -17,13 +17,3 @@ addEventListener("scroll", tone, {passive: true});
 addEventListener("resize", tone);
 tone();
 
-// ljus eller svart/orange – valet sparas mellan sidorna
-document.querySelectorAll(".theme button").forEach(b => {
-  const sync = () => b.setAttribute("aria-pressed", (document.documentElement.dataset.theme || "light") === b.dataset.t);
-  sync();
-  b.addEventListener("click", () => {
-    document.documentElement.dataset.theme = b.dataset.t;
-    try { localStorage.setItem("tema", b.dataset.t); } catch (e) {}
-    document.querySelectorAll(".theme button").forEach(x => x.setAttribute("aria-pressed", x === b));
-  });
-});
