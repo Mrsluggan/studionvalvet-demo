@@ -21,6 +21,9 @@ p{margin:0 0 1em}
 .dark .nav{color:#fff}
 .nav a{pointer-events:auto;padding-bottom:3px;border-bottom:1px solid transparent}
 .nav a:hover,.nav a[aria-current]{border-color:currentColor}
+.nav .lang{margin-left:clamp(0px,2vw,20px);white-space:nowrap}
+.nav .lang a.on{border-color:currentColor}
+@media (max-width:640px){.nav{flex-wrap:wrap;row-gap:14px;padding-right:84px}.nav .lang{margin-left:0}}
 .nav a[aria-current]{color:var(--orange)}
 .mark{position:fixed;top:14px;right:var(--pad);z-index:31;width:52px}
 .mark img{width:100%}
