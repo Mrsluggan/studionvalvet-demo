@@ -1,5 +1,5 @@
 :root{
-  --paper:#fffefa; --ink:#111; --line:#111; --muted:#6b6b6b;
+  --paper:#fffefa; --ink:#111; --line:#111; --muted:#6b6b6b; --hover:#f1efe9; --title:var(--ink);
   --orange:#ff7200;
   --serif:"Fraunces", Georgia, serif;
   --sans:"Barlow Condensed", "Arial Narrow", sans-serif;
@@ -10,7 +10,7 @@ html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.45 var(--sans)}
 img,video{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
-h1,h2,h3{font-family:var(--serif);font-weight:400;font-variation-settings:"opsz" 144,"SOFT" 0,"WONK" 0;letter-spacing:-.01em;line-height:1.02;margin:0}
+h1,h2,h3{color:var(--title);font-family:var(--serif);font-weight:400;font-variation-settings:"opsz" 144,"SOFT" 0,"WONK" 0;letter-spacing:-.01em;line-height:1.02;margin:0}
 .big{font-size:clamp(46px,7vw,96px)}
 .mid{font-size:clamp(34px,4.4vw,60px)}
 p{margin:0 0 1em}
@@ -19,13 +19,16 @@ p{margin:0 0 1em}
 .nav{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;gap:clamp(14px,2.2vw,28px);padding:26px var(--pad);
   color:var(--ink);transition:color .3s;font:500 15px/1 var(--sans);text-transform:uppercase;letter-spacing:.03em;pointer-events:none}
 .dark .nav{color:#fff}
-.nav a{pointer-events:auto;padding-bottom:3px;border-bottom:1px solid transparent}
-.nav a:hover,.nav a[aria-current]{border-color:currentColor}
+.nav a,.nav button{pointer-events:auto;padding-bottom:3px;border-bottom:1px solid transparent}
+.nav a:hover,.nav a[aria-current],.nav button:hover,.nav button[aria-pressed=true]{border-color:currentColor}
+.nav .theme{margin-left:clamp(0px,2vw,20px);white-space:nowrap}
+.nav button{font:inherit;color:inherit;text-transform:inherit;letter-spacing:inherit;background:none;border:0;border-bottom:1px solid transparent;padding:0 0 3px;cursor:pointer}
+@media (max-width:640px){.nav{flex-wrap:wrap;row-gap:14px;padding-right:84px}.nav .theme{margin-left:0}}
 .mark{position:fixed;top:14px;right:var(--pad);z-index:31;width:52px}
 .mark img{width:100%}
 
 /* start: film + jobb i helskärm */
-.full{position:relative;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;overflow:hidden;background:#111}
+.full{--title:#fff;position:relative;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;overflow:hidden;background:#111}
 .full>.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .full::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.55) 100%)}
 .full>*:not(.bg){position:relative;z-index:1}
@@ -75,7 +78,7 @@ p{margin:0 0 1em}
 /* kunder */
 .logos{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
 .logos>*{aspect-ratio:1;display:grid;place-items:center;padding:16%;border-right:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center;transition:background .25s}
-.logos a:hover{background:#f1efe9}
+.logos a:hover{background:var(--hover)}
 .logos img{max-height:100%;object-fit:contain}
 .logos .name{font:400 clamp(24px,3vw,40px)/1.05 var(--serif)}
 .logos .ask{font:500 17px/1.4 var(--sans);text-transform:uppercase;letter-spacing:.03em}
@@ -121,3 +124,14 @@ footer .copy{margin-top:56px;position:relative}
 .snap{scroll-snap-type:y proximity}
 .snap .full{scroll-snap-align:start}
 .snap footer{scroll-snap-align:end}
+
+/* svart och orange */
+[data-theme=dark]{--paper:#0a0a0a;--ink:#f3f0ea;--line:#3a3a3a;--muted:#9c9c9c;--hover:#1a1a1a;--title:var(--orange)}
+[data-theme=dark] .full{--title:var(--orange)}
+[data-theme=dark] .nav a[aria-current],[data-theme=dark] .nav button[aria-pressed=true]{color:var(--orange)}
+[data-theme=dark] .logos img{filter:brightness(0) invert(1)}
+[data-theme=dark] .logos a:hover .name,[data-theme=dark] .logos a:hover .ask{color:var(--orange)}
+[data-theme=dark] .job .pic{background:#1a1a1a}
+[data-theme=dark] .map{background:#1a1a1a}
+[data-theme=dark] .map iframe{filter:grayscale(1) invert(.92) contrast(.9)}
+[data-theme=dark] footer{background:var(--orange);color:#0a0a0a}
