@@ -116,3 +116,8 @@ footer .copy{margin-top:56px;position:relative}
 }
 .u{border-bottom:1px solid}
 .u:hover{border-color:transparent}
+
+/* startsidan glider till nästa jobb när man slutar skrolla nära det */
+.snap{scroll-snap-type:y proximity}
+.snap .full{scroll-snap-align:start}
+.snap footer{scroll-snap-align:end}
