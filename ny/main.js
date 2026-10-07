@@ -17,3 +17,14 @@ addEventListener("scroll", tone, {passive: true});
 addEventListener("resize", tone);
 tone();
 
+
+// kartan börjar under menyn och loggan, även när menyn bryts på två rader
+const mapOffset = () => {
+  const low = Math.max(...[...document.querySelectorAll(".nav a, .mark")].map(el => el.getBoundingClientRect().bottom));
+  document.documentElement.style.setProperty("--top", Math.ceil(low + 10) + "px");
+};
+if (document.querySelector(".map")) {
+  mapOffset();
+  addEventListener("resize", mapOffset);
+  document.fonts?.ready.then(mapOffset);
+}
