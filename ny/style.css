@@ -91,7 +91,8 @@ p{margin:0 0 1em}
 .list>h2{font:500 15px/1 var(--sans);text-transform:uppercase;letter-spacing:.03em;margin-bottom:24px}
 .list a{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px clamp(24px,4vw,64px);padding:26px 0;border-top:1px solid var(--line);align-items:baseline}
 .list a:last-child{border-bottom:1px solid var(--line)}
-.list a:hover h3{font-style:italic}
+.list h3{transition:color .25s}
+.list a:hover h3{color:#ffa04d}
 .list p{margin:0;max-width:520px}
 @media (max-width:760px){.list a{grid-template-columns:1fr}}
 
