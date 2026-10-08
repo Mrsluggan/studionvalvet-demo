@@ -1,13 +1,14 @@
 {
   "sv": {
     "ordning": 4,
-    "bild": "/ny/uppladdat/cobra-bg.jpg",
     "titel": "Cobra Combat",
     "kund": "Cobra Combat",
     "uppdrag": "Logotyp, varumärkesprofil, social media",
+    "bild": "/ny/uppladdat/kund-cobra.png",
     "ingress": "Från uppstart formar vi Cobra Combats visuella identitet – logotyp, varumärkesprofil och grunden för deras närvaro i sociala medier.",
     "brief": "Cobra Combat är nystartat inom personal training, group training, fitness och martial arts, och behövde ett visuellt uttryck från grunden.",
     "arbete": "Pågående arbete där vi från uppstart formar Cobra Combats visuella identitet. Vi utvecklar logotyp, varumärkesprofil och riktlinjer för uttrycket, samtidigt som vi lägger grunden för deras närvaro i sociala medier.",
+    "lankar": [],
     "media": [
       {
         "type": "rad",
@@ -15,11 +16,15 @@
         "objekt": [
           {
             "bild": "/ny/uppladdat/cobra-emblem.png",
-            "alt": "Cobra Combats emblem"
+            "video": "",
+            "alt": "Cobra Combats emblem",
+            "bakgrund": ""
           },
           {
             "bild": "/ny/uppladdat/kund-cobra.png",
-            "alt": "Cobra Combats logotyp"
+            "video": "",
+            "alt": "Cobra Combats logotyp",
+            "bakgrund": ""
           }
         ]
       }
@@ -32,6 +37,7 @@
     "ingress": "From day one, we're shaping Cobra Combat's visual identity – logo, brand identity and the foundation of their social media presence.",
     "brief": "Cobra Combat is a new business in personal training, group training, fitness and martial arts, and needed a visual identity built from the ground up.",
     "arbete": "An ongoing project where we're shaping Cobra Combat's visual identity from the start. We're developing the logo, brand identity and guidelines, while laying the foundation for their presence on social media.",
+    "lankar": [],
     "media": [
       {
         "type": "rad",
@@ -39,11 +45,15 @@
         "objekt": [
           {
             "bild": "/ny/uppladdat/cobra-emblem.png",
-            "alt": "Cobra Combat emblem"
+            "video": "",
+            "alt": "Cobra Combat emblem",
+            "bakgrund": ""
           },
           {
             "bild": "/ny/uppladdat/kund-cobra.png",
-            "alt": "Cobra Combat logo"
+            "video": "",
+            "alt": "Cobra Combat logo",
+            "bakgrund": ""
           }
         ]
       }
