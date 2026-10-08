@@ -1,7 +1,7 @@
 {
   "sv": {
     "ordning": 4,
-    "bild": "/img/kunder/cobra-bg.jpg",
+    "bild": "/ny/uppladdat/cobra-bg.jpg",
     "titel": "Cobra Combat",
     "kund": "Cobra Combat",
     "uppdrag": "Logotyp, varumärkesprofil, social media",
@@ -14,11 +14,11 @@
         "stil": "ruta",
         "objekt": [
           {
-            "bild": "/img/kunder/cobra-emblem.png",
+            "bild": "/ny/uppladdat/cobra-emblem.png",
             "alt": "Cobra Combats emblem"
           },
           {
-            "bild": "/img/kund-cobra.png",
+            "bild": "/ny/uppladdat/kund-cobra.png",
             "alt": "Cobra Combats logotyp"
           }
         ]
@@ -38,11 +38,11 @@
         "stil": "ruta",
         "objekt": [
           {
-            "bild": "/img/kunder/cobra-emblem.png",
+            "bild": "/ny/uppladdat/cobra-emblem.png",
             "alt": "Cobra Combat emblem"
           },
           {
-            "bild": "/img/kund-cobra.png",
+            "bild": "/ny/uppladdat/kund-cobra.png",
             "alt": "Cobra Combat logo"
           }
         ]

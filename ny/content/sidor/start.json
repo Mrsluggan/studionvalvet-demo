@@ -1,8 +1,15 @@
 {
   "sv": {
-    "rubrik": "Från idé till\nfärdig produktion"
+    "rubrik": "Från idé till\nfärdig produktion",
+    "film": "/ny/uppladdat/hero.mp4",
+    "film_mobil": "/ny/uppladdat/hero-mobil.mp4",
+    "stillbild": "/ny/uppladdat/hero.jpg",
+    "seo_titel": "StudionValvet – film, content, design och musik i Uppsala",
+    "seo_beskrivning": "Vi hjälper varumärken, artister och företag med branding, content och marknadsföring – från idé till färdig produktion. Studio i Gamla Riksbankshuset, Uppsala."
   },
   "en": {
-    "rubrik": "From idea to\nfinished production"
+    "rubrik": "From idea to\nfinished production",
+    "seo_titel": "StudionValvet – film, content, design and music in Uppsala",
+    "seo_beskrivning": "We help brands, artists and companies with branding, content and marketing – from idea to finished production. Studio in Gamla Riksbankshuset, Uppsala."
   }
 }

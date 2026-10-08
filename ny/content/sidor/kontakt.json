@@ -1,18 +1,34 @@
 {
-  "adress": "Gamla Riksbankshuset\nKungsängsgatan 17–19\n753 32 Uppsala",
-  "epost": "studionvalvet@gmail.com",
-  "personer": [
-    {
-      "namn": "David",
-      "telefon": "070-891 32 14"
-    },
-    {
-      "namn": "Younes",
-      "telefon": "072-044 47 07"
-    },
-    {
-      "namn": "Topel",
-      "telefon": "072-312 90 02"
-    }
-  ]
+  "sv": {
+    "rubrik": "Kontakt",
+    "adress": "Gamla Riksbankshuset\nKungsängsgatan 17–19\n753 32 Uppsala",
+    "epost": "studionvalvet@gmail.com",
+    "boka_text": "Boka en kreativ konsultation:",
+    "mejlamne": "Kreativ konsultation",
+    "kartadress": "Kungsängsgatan 17, 753 32 Uppsala",
+    "personer": [
+      {
+        "namn": "David",
+        "telefon": "070-891 32 14"
+      },
+      {
+        "namn": "Younes",
+        "telefon": "072-044 47 07"
+      },
+      {
+        "namn": "Topel",
+        "telefon": "072-312 90 02"
+      }
+    ],
+    "seo_titel": "Kontakt – StudionValvet",
+    "seo_beskrivning": "Boka en kreativ konsultation. Studio i Gamla Riksbankshuset, Kungsängsgatan 17–19, Uppsala."
+  },
+  "en": {
+    "rubrik": "Contact",
+    "adress": "Gamla Riksbankshuset\nKungsängsgatan 17–19\n753 32 Uppsala\nSweden",
+    "boka_text": "Book a creative consultation:",
+    "mejlamne": "Creative consultation",
+    "seo_titel": "Contact – StudionValvet",
+    "seo_beskrivning": "Book a creative consultation. Studio in Gamla Riksbankshuset, Kungsängsgatan 17–19, Uppsala."
+  }
 }

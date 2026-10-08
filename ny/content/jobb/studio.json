@@ -1,7 +1,7 @@
 {
   "sv": {
     "ordning": 6,
-    "bild": "/img/tjanster/foto-miljo-ljus.jpg",
+    "bild": "/ny/uppladdat/foto-miljo-ljus.jpg",
     "titel": "Foto i studion",
     "kund": "Flera kunder",
     "uppdrag": "Produktfoto, produktvideo, miljöbilder",
@@ -14,19 +14,19 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/tjanster/foto-kedja.jpg",
+            "bild": "/ny/uppladdat/foto-kedja.jpg",
             "alt": "Guldkedja"
           },
           {
-            "bild": "/img/tjanster/foto-tandare.jpg",
+            "bild": "/ny/uppladdat/foto-tandare.jpg",
             "alt": "Tändare"
           },
           {
-            "bild": "/img/tjanster/foto-telefon.jpg",
+            "bild": "/ny/uppladdat/foto-telefon.jpg",
             "alt": "Grön telefonlur"
           },
           {
-            "bild": "/img/tjanster/foto-yinyang.jpg",
+            "bild": "/ny/uppladdat/foto-yinyang.jpg",
             "alt": "Yin-yang-kulor i ask"
           }
         ]
@@ -36,20 +36,20 @@
         "stil": "staende",
         "objekt": [
           {
-            "bild": "/video/foto-produktvideo.jpg",
-            "video": "/video/foto-produktvideo.mp4",
+            "bild": "/ny/uppladdat/foto-produktvideo.jpg",
+            "video": "/ny/uppladdat/foto-produktvideo.mp4",
             "alt": ""
           },
           {
-            "bild": "/img/tjanster/foto-mat.jpg",
+            "bild": "/ny/uppladdat/foto-mat.jpg",
             "alt": "Matfoto"
           },
           {
-            "bild": "/img/tjanster/foto-studio-kedja.jpg",
+            "bild": "/ny/uppladdat/foto-studio-kedja.jpg",
             "alt": "Fotografering i studion"
           },
           {
-            "bild": "/img/tjanster/foto-studio-burk.jpg",
+            "bild": "/ny/uppladdat/foto-studio-burk.jpg",
             "alt": "Produktfoto i studion"
           }
         ]
@@ -59,11 +59,11 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/tjanster/foto-miljo-ljus.jpg",
+            "bild": "/ny/uppladdat/foto-miljo-ljus.jpg",
             "alt": "Uteservering i kvällsljus"
           },
           {
-            "bild": "/img/tjanster/foto-miljo-fonster.jpg",
+            "bild": "/ny/uppladdat/foto-miljo-fonster.jpg",
             "alt": "Fönster i svartvitt"
           }
         ]
@@ -83,19 +83,19 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/tjanster/foto-kedja.jpg",
+            "bild": "/ny/uppladdat/foto-kedja.jpg",
             "alt": "Gold chain"
           },
           {
-            "bild": "/img/tjanster/foto-tandare.jpg",
+            "bild": "/ny/uppladdat/foto-tandare.jpg",
             "alt": "Lighter"
           },
           {
-            "bild": "/img/tjanster/foto-telefon.jpg",
+            "bild": "/ny/uppladdat/foto-telefon.jpg",
             "alt": "Green telephone receiver"
           },
           {
-            "bild": "/img/tjanster/foto-yinyang.jpg",
+            "bild": "/ny/uppladdat/foto-yinyang.jpg",
             "alt": "Yin-yang balls in a box"
           }
         ]
@@ -105,20 +105,20 @@
         "stil": "staende",
         "objekt": [
           {
-            "bild": "/video/foto-produktvideo.jpg",
-            "video": "/video/foto-produktvideo.mp4",
+            "bild": "/ny/uppladdat/foto-produktvideo.jpg",
+            "video": "/ny/uppladdat/foto-produktvideo.mp4",
             "alt": ""
           },
           {
-            "bild": "/img/tjanster/foto-mat.jpg",
+            "bild": "/ny/uppladdat/foto-mat.jpg",
             "alt": "Food photo"
           },
           {
-            "bild": "/img/tjanster/foto-studio-kedja.jpg",
+            "bild": "/ny/uppladdat/foto-studio-kedja.jpg",
             "alt": "Shooting in the studio"
           },
           {
-            "bild": "/img/tjanster/foto-studio-burk.jpg",
+            "bild": "/ny/uppladdat/foto-studio-burk.jpg",
             "alt": "Product shot in the studio"
           }
         ]
@@ -128,11 +128,11 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/tjanster/foto-miljo-ljus.jpg",
+            "bild": "/ny/uppladdat/foto-miljo-ljus.jpg",
             "alt": "Outdoor seating in evening light"
           },
           {
-            "bild": "/img/tjanster/foto-miljo-fonster.jpg",
+            "bild": "/ny/uppladdat/foto-miljo-fonster.jpg",
             "alt": "Window in black and white"
           }
         ]

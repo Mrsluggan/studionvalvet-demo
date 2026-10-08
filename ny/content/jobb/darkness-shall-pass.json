@@ -1,7 +1,7 @@
 {
   "sv": {
     "ordning": 3,
-    "bild": "/img/kunder/viktor-bg.jpg",
+    "bild": "/ny/uppladdat/viktor-bg.jpg",
     "titel": "Darkness Shall Pass",
     "kund": "Viktor Andersson",
     "uppdrag": "Hemsida, dokumentation",
@@ -20,7 +20,7 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/kunder/viktor-banner.png",
+            "bild": "/ny/uppladdat/viktor-banner.png",
             "alt": "Viktor Andersson – Darkness Shall Pass"
           }
         ]
@@ -30,11 +30,11 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/kunder/viktor-sida-4.png",
+            "bild": "/ny/uppladdat/viktor-sida-4.png",
             "alt": "Del 1: Introduktion"
           },
           {
-            "bild": "/img/kunder/viktor-sida-5.png",
+            "bild": "/ny/uppladdat/viktor-sida-5.png",
             "alt": "Låten P.P"
           }
         ]
@@ -44,15 +44,15 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/kunder/viktor-sida-1.png",
+            "bild": "/ny/uppladdat/viktor-sida-1.png",
             "alt": "Låtarna Maniac, Fantasy och Wake up"
           },
           {
-            "bild": "/img/kunder/viktor-sida-2.png",
+            "bild": "/ny/uppladdat/viktor-sida-2.png",
             "alt": "Låtarna I can't run och Honest mistake"
           },
           {
-            "bild": "/img/kunder/viktor-sida-3.png",
+            "bild": "/ny/uppladdat/viktor-sida-3.png",
             "alt": "Låtarna Divine purpose och Darkness shall pass"
           }
         ]
@@ -78,7 +78,7 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/kunder/viktor-banner.png",
+            "bild": "/ny/uppladdat/viktor-banner.png",
             "alt": "Viktor Andersson – Darkness Shall Pass"
           }
         ]
@@ -88,11 +88,11 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/kunder/viktor-sida-4.png",
+            "bild": "/ny/uppladdat/viktor-sida-4.png",
             "alt": "Part 1: Introduction"
           },
           {
-            "bild": "/img/kunder/viktor-sida-5.png",
+            "bild": "/ny/uppladdat/viktor-sida-5.png",
             "alt": "The song P.P"
           }
         ]
@@ -102,15 +102,15 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/kunder/viktor-sida-1.png",
+            "bild": "/ny/uppladdat/viktor-sida-1.png",
             "alt": "The songs Maniac, Fantasy and Wake up"
           },
           {
-            "bild": "/img/kunder/viktor-sida-2.png",
+            "bild": "/ny/uppladdat/viktor-sida-2.png",
             "alt": "The songs I can't run and Honest mistake"
           },
           {
-            "bild": "/img/kunder/viktor-sida-3.png",
+            "bild": "/ny/uppladdat/viktor-sida-3.png",
             "alt": "The songs Divine purpose and Darkness shall pass"
           }
         ]

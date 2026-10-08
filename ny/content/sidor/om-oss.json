@@ -1,8 +1,11 @@
 {
   "sv": {
-    "bild": "/img/riksbankshuset.jpg",
+    "rubrik": "Om oss",
+    "bild": "/ny/uppladdat/riksbankshuset.jpg",
+    "bild_alt": "Gamla Riksbankshuset i Uppsala",
     "ingress": "Vi är en kreativ partner för varumärken, artister och företag som vill ha hjälp med branding, content och marknadsföring i ett sammanhållet grepp.",
     "text": "Genom att kombinera design, film, musik och innehåll i samma team kan vi ta idéer hela vägen till färdig produktion. Med bakgrund inom film- och tv-produktion samt medie- och kommunikationsvetenskap förenar vi kreativt skapande med förståelse för hur budskap engagerar och bygger varumärken. Vi arbetar nära våra kunder, är flexibla i vårt arbetssätt och drivs av att skapa lösningar som både syns, hörs och känns.\n\nMed kontor och studio beläget i det gamla Riksbankshuset i centrala Uppsala ser vi till att alltid finnas nära och tillgängliga för våra kunder, samarbetspartners och andra som är intresserade av verksamheten. Vi ligger ett stenkast från Centralstationen och har därför närhet till Uppsala, Stockholm och kringliggande orter.",
+    "tjanster_rubrik": "Det här gör vi",
     "tjanster": [
       {
         "namn": "Filmproduktion",
@@ -29,11 +32,16 @@
         "text": "Vi skapar musik och ljud som förstärker berättelser, varumärken och helhetsupplevelser – med inhouse musikproduktion som ger full kreativ kontroll.",
         "jobb": "kings-of-kong"
       }
-    ]
+    ],
+    "seo_titel": "Om oss – StudionValvet",
+    "seo_beskrivning": "Kreativ partner för branding, content och marknadsföring, med studio i Gamla Riksbankshuset i Uppsala."
   },
   "en": {
+    "rubrik": "About",
+    "bild_alt": "Gamla Riksbankshuset in Uppsala",
     "ingress": "We're a creative partner for brands, artists and companies who want branding, content and marketing brought together as one coherent whole.",
     "text": "By combining design, film, music and content in one team, we can take ideas all the way to finished production. With backgrounds in film and TV production as well as media and communication studies, we pair creative craft with an understanding of how messages engage people and build brands. We work closely with our clients, stay flexible in how we work, and are driven by creating solutions that are seen, heard and felt.\n\nWith our office and studio in the old Riksbank building, Gamla Riksbankshuset, in central Uppsala, we're always close at hand for clients, partners and anyone curious about what we do. We're a stone's throw from Uppsala Central Station, which puts Uppsala, Stockholm and the surrounding area within easy reach.",
+    "tjanster_rubrik": "What we do",
     "tjanster": [
       {
         "namn": "Film production",
@@ -60,6 +68,8 @@
         "text": "We create music and sound that strengthen stories, brands and experiences – with in-house music production that gives full creative control.",
         "jobb": "kings-of-kong"
       }
-    ]
+    ],
+    "seo_titel": "About – StudionValvet",
+    "seo_beskrivning": "A creative partner for branding, content and marketing, with a studio in Gamla Riksbankshuset in Uppsala."
   }
 }

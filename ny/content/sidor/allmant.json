@@ -1,0 +1,34 @@
+{
+  "sv": {
+    "foretagsnamn": "StudionValvet",
+    "logga": "/ny/uppladdat/logo.png",
+    "sociala": [
+      {
+        "namn": "Instagram",
+        "url": "https://www.instagram.com/studionvalvet/"
+      },
+      {
+        "namn": "TikTok",
+        "url": "https://www.tiktok.com/@studionvalvet"
+      },
+      {
+        "namn": "LinkedIn",
+        "url": "https://www.linkedin.com/search/results/companies/?keywords=Studion%20Valvet"
+      }
+    ],
+    "kund_etikett": "Kund",
+    "uppdrag_etikett": "Uppdrag",
+    "se_jobbet": "Se jobbet",
+    "nasta_jobb": "Nästa jobb",
+    "brief_rubrik": "Brief",
+    "arbete_rubrik": "Vårt arbete"
+  },
+  "en": {
+    "kund_etikett": "Client",
+    "uppdrag_etikett": "Scope",
+    "se_jobbet": "See the project",
+    "nasta_jobb": "Next project",
+    "brief_rubrik": "Brief",
+    "arbete_rubrik": "What we did"
+  }
+}

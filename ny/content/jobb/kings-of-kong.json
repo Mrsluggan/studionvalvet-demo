@@ -1,7 +1,7 @@
 {
   "sv": {
     "ordning": 5,
-    "bild": "/video/musik-video-1.jpg",
+    "bild": "/ny/uppladdat/musik-video-1.jpg",
     "titel": "Kings of Kong",
     "kund": "Kings of Kong, Topel Beats",
     "uppdrag": "Musik- och ljudproduktion",
@@ -22,7 +22,7 @@
       {
         "type": "inbaddning",
         "url": "https://open.spotify.com/track/66zWHne0Lw9h2wmRUUfgZ9",
-        "bild": "/img/tjanster/musik-kings-of-kong.png",
+        "bild": "/ny/uppladdat/musik-kings-of-kong.png",
         "alt": "Kings of Kong på Spotify"
       },
       {
@@ -30,13 +30,13 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/video/musik-video-1.jpg",
-            "video": "/video/musik-video-1.mp4",
+            "bild": "/ny/uppladdat/musik-video-1.jpg",
+            "video": "/ny/uppladdat/musik-video-1.mp4",
             "alt": ""
           },
           {
-            "bild": "/video/musik-video-2.jpg",
-            "video": "/video/musik-video-2.mp4",
+            "bild": "/ny/uppladdat/musik-video-2.jpg",
+            "video": "/ny/uppladdat/musik-video-2.mp4",
             "alt": ""
           }
         ]
@@ -68,7 +68,7 @@
       {
         "type": "inbaddning",
         "url": "https://open.spotify.com/track/66zWHne0Lw9h2wmRUUfgZ9",
-        "bild": "/img/tjanster/musik-kings-of-kong.png",
+        "bild": "/ny/uppladdat/musik-kings-of-kong.png",
         "alt": "Kings of Kong on Spotify"
       },
       {
@@ -76,13 +76,13 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/video/musik-video-1.jpg",
-            "video": "/video/musik-video-1.mp4",
+            "bild": "/ny/uppladdat/musik-video-1.jpg",
+            "video": "/ny/uppladdat/musik-video-1.mp4",
             "alt": ""
           },
           {
-            "bild": "/video/musik-video-2.jpg",
-            "video": "/video/musik-video-2.mp4",
+            "bild": "/ny/uppladdat/musik-video-2.jpg",
+            "video": "/ny/uppladdat/musik-video-2.mp4",
             "alt": ""
           }
         ]

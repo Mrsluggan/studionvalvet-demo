@@ -1,7 +1,7 @@
 {
   "sv": {
     "ordning": 2,
-    "bild": "/img/kunder/topel-bg.jpg",
+    "bild": "/ny/uppladdat/topel-bg.jpg",
     "titel": "Topel Beats",
     "kund": "Topel Beats",
     "uppdrag": "Branding, logotypfamilj, merch",
@@ -14,11 +14,11 @@
         "stil": "ruta",
         "objekt": [
           {
-            "bild": "/img/kunder/topel-logo-1.png",
+            "bild": "/ny/uppladdat/topel-logo-1.png",
             "alt": "Topel Beats logotyp"
           },
           {
-            "bild": "/img/kunder/topel-logo-2.png",
+            "bild": "/ny/uppladdat/topel-logo-2.png",
             "alt": "Topel Beats logotyp, grön"
           }
         ]
@@ -28,11 +28,11 @@
         "stil": "ruta",
         "objekt": [
           {
-            "bild": "/img/kunder/topel-logo-3.png",
+            "bild": "/ny/uppladdat/topel-logo-3.png",
             "alt": "Topel Beats logotyp, röd"
           },
           {
-            "bild": "/img/kunder/topel-ufo.png",
+            "bild": "/ny/uppladdat/topel-ufo.png",
             "alt": "Topel Beats ufo-symbol"
           }
         ]
@@ -42,7 +42,7 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/kunder/topel-merch.jpg",
+            "bild": "/ny/uppladdat/topel-merch.jpg",
             "alt": "Hoodies med Topel Beats logotyp"
           }
         ]
@@ -62,11 +62,11 @@
         "stil": "ruta",
         "objekt": [
           {
-            "bild": "/img/kunder/topel-logo-1.png",
+            "bild": "/ny/uppladdat/topel-logo-1.png",
             "alt": "Topel Beats logo"
           },
           {
-            "bild": "/img/kunder/topel-logo-2.png",
+            "bild": "/ny/uppladdat/topel-logo-2.png",
             "alt": "Topel Beats logo, green"
           }
         ]
@@ -76,11 +76,11 @@
         "stil": "ruta",
         "objekt": [
           {
-            "bild": "/img/kunder/topel-logo-3.png",
+            "bild": "/ny/uppladdat/topel-logo-3.png",
             "alt": "Topel Beats logo, red"
           },
           {
-            "bild": "/img/kunder/topel-ufo.png",
+            "bild": "/ny/uppladdat/topel-ufo.png",
             "alt": "Topel Beats UFO symbol"
           }
         ]
@@ -90,7 +90,7 @@
         "stil": "vanlig",
         "objekt": [
           {
-            "bild": "/img/kunder/topel-merch.jpg",
+            "bild": "/ny/uppladdat/topel-merch.jpg",
             "alt": "Hoodies with the Topel Beats logo"
           }
         ]

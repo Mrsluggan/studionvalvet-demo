@@ -19,6 +19,17 @@ logo:
 
 media_folder: ny/uppladdat
 public_folder: /ny/uppladdat
+media_libraries:
+  default:
+    config:
+      max_file_size: 52428800
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 2400
+          height: 2400
 
 slug:
   encoding: ascii
@@ -43,6 +54,7 @@ collections:
     identifier_field: titel
     slug: "{{titel}}"
     summary: "{{titel}} – {{kund}}"
+    thumbnail: bild
     sortable_fields: [ordning, titel]
     preview_path: "ny/jobb/{{slug}}/"
     fields:
@@ -94,7 +106,7 @@ collections:
                 hint: Alla bilder i samma rad visas bredvid varandra.
                 fields:
                   - { name: bild, label: Bild, widget: image, required: false, i18n: duplicate, hint: "För film: stillbilden som visas innan filmen startar." }
-                  - { name: video, label: Film (valfri), widget: file, required: false, i18n: duplicate, hint: "MP4, helst under 50 MB. Längre filmer läggs hellre på YouTube eller Vimeo och bäddas in." }
+                  - { name: video, label: Film (valfri), widget: file, accept: video/mp4, required: false, i18n: duplicate, hint: "MP4, helst under 50 MB. Längre filmer läggs hellre på YouTube eller Vimeo och bäddas in." }
                   - { name: alt, label: Beskrivning för skärmläsare, widget: string, required: false, i18n: true }
                   - { name: bakgrund, label: Bakgrundsfärg (bara för Ruta), widget: string, required: false, i18n: duplicate, hint: "T.ex. #2e422c" }
           - name: inbaddning
@@ -123,6 +135,7 @@ collections:
     delete: true
     identifier_field: namn
     slug: "{{namn}}"
+    thumbnail: logga
     sortable_fields: [ordning, namn]
     fields:
       - { name: ordning, label: Ordning, widget: number, value_type: int, required: false, hint: "Lägst nummer visas först." }
@@ -139,7 +152,7 @@ collections:
 
   - name: sidor
     label: Sidor
-    description: Texter på startsidan, Om oss och Kontakt.
+    description: Startsidan, sidrubriker, Om oss, Kontakt och allmänna texter.
     i18n: true
     files:
       - name: start
@@ -148,16 +161,41 @@ collections:
         i18n: true
         fields:
           - { name: rubrik, label: Rubrik över filmen, widget: text, i18n: true, hint: "Ny rad blir radbrytning." }
+          - { name: film, label: Film, widget: file, accept: video/mp4, required: false, hint: "Spelas utan ljud i en loop. MP4, kort (10–30 s) och helst under 15 MB, annars laddar sidan långsamt." }
+          - { name: film_mobil, label: Film för mobil (valfri), widget: file, accept: video/mp4, required: false, hint: "Mindre version av samma film. Utan den används filmen ovan även på mobil." }
+          - { name: stillbild, label: Stillbild, widget: image, required: false, hint: "Visas medan filmen laddar, och i stället för film om ingen film är vald." }
+          - { name: seo_titel, label: Sidtitel (Google och flik), widget: string, i18n: true, required: false }
+          - { name: seo_beskrivning, label: Beskrivning (Google), widget: text, i18n: true, required: false, hint: "En eller två meningar som visas i sökresultat." }
+      - name: vara-jobb
+        label: Våra jobb
+        file: ny/content/sidor/vara-jobb.json
+        i18n: true
+        fields:
+          - { name: rubrik, label: Rubrik, widget: string, i18n: true, hint: "Används även i menyn." }
+          - { name: seo_titel, label: Sidtitel (Google och flik), widget: string, i18n: true, required: false }
+          - { name: seo_beskrivning, label: Beskrivning (Google), widget: text, i18n: true, required: false, hint: "En eller två meningar som visas i sökresultat." }
+      - name: kunder
+        label: Kunder
+        file: ny/content/sidor/kunder.json
+        i18n: true
+        fields:
+          - { name: rubrik, label: Rubrik, widget: string, i18n: true, hint: "Används även i menyn." }
+          - { name: sista_rutan, label: Text i sista rutan, widget: text, i18n: true, required: false, hint: "Länkar till Kontakt. Lämna tom för att ta bort rutan." }
+          - { name: seo_titel, label: Sidtitel (Google och flik), widget: string, i18n: true, required: false }
+          - { name: seo_beskrivning, label: Beskrivning (Google), widget: text, i18n: true, required: false, hint: "En eller två meningar som visas i sökresultat." }
       - name: om-oss
         label: Om oss
         file: ny/content/sidor/om-oss.json
         i18n: true
         fields:
+          - { name: rubrik, label: Namn i menyn, widget: string, i18n: true }
           - { name: bild, label: Bild överst, widget: image }
+          - { name: bild_alt, label: Beskrivning av bilden, widget: string, i18n: true, required: false }
           - { name: ingress, label: Ingress, widget: text, i18n: true }
           - { name: text, label: Text, widget: text, i18n: true, hint: "Tom rad mellan stycken. Två stycken blir två spalter." }
+          - { name: tjanster_rubrik, label: Rubrik över tjänsterna, widget: string, i18n: true }
           - name: tjanster
-            label: Det här gör vi
+            label: Tjänster
             label_singular: Tjänst
             widget: list
             i18n: duplicate
@@ -165,13 +203,19 @@ collections:
               - { name: namn, label: Namn, widget: string, i18n: true }
               - { name: text, label: Text, widget: text, i18n: true }
               - { name: jobb, label: Länkar till jobb, widget: relation, collection: jobb, value_field: "{{slug}}", search_fields: [titel], display_fields: [titel], required: false, i18n: duplicate }
+          - { name: seo_titel, label: Sidtitel (Google och flik), widget: string, i18n: true, required: false }
+          - { name: seo_beskrivning, label: Beskrivning (Google), widget: text, i18n: true, required: false, hint: "En eller två meningar som visas i sökresultat." }
       - name: kontakt
         label: Kontakt
         file: ny/content/sidor/kontakt.json
-        i18n: false
+        i18n: true
         fields:
-          - { name: adress, label: Adress, widget: text, hint: "Används även i sidfoten." }
+          - { name: rubrik, label: Rubrik, widget: string, i18n: true, hint: "Används även i menyn och sidfoten." }
+          - { name: adress, label: Adress, widget: text, i18n: true, hint: "Används även i sidfoten." }
+          - { name: kartadress, label: Adress för kartan, widget: string, hint: "Det som söks på i Google Maps, t.ex. Kungsängsgatan 17, 753 32 Uppsala." }
           - { name: epost, label: E-post, widget: string }
+          - { name: boka_text, label: Text före e-postadressen, widget: string, i18n: true }
+          - { name: mejlamne, label: Ämnesrad när man klickar på e-posten, widget: string, i18n: true, required: false }
           - name: personer
             label: Personer
             label_singular: Person
@@ -179,3 +223,25 @@ collections:
             fields:
               - { name: namn, label: Namn, widget: string }
               - { name: telefon, label: Telefon, widget: string, hint: "Skriv som 070-123 45 67. På engelska visas det som +46 70 123 45 67." }
+          - { name: seo_titel, label: Sidtitel (Google och flik), widget: string, i18n: true, required: false }
+          - { name: seo_beskrivning, label: Beskrivning (Google), widget: text, i18n: true, required: false, hint: "En eller två meningar som visas i sökresultat." }
+      - name: allmant
+        label: Allmänt
+        file: ny/content/sidor/allmant.json
+        i18n: true
+        fields:
+          - { name: foretagsnamn, label: Företagsnamn, widget: string, hint: "Visas i sidfoten." }
+          - { name: logga, label: Logga, widget: image, hint: "Visas uppe till höger, på startsidan och som ikon i webbläsarfliken. Kvadratisk PNG." }
+          - name: sociala
+            label: Sociala medier
+            label_singular: Länk
+            widget: list
+            fields:
+              - { name: namn, label: Namn, widget: string }
+              - { name: url, label: Adress, widget: string }
+          - { name: kund_etikett, label: "Ordet före kundnamnet (Kund:)", widget: string, i18n: true }
+          - { name: uppdrag_etikett, label: "Ordet före uppdraget (Uppdrag:)", widget: string, i18n: true }
+          - { name: se_jobbet, label: Länktext på startsidan, widget: string, i18n: true }
+          - { name: nasta_jobb, label: Text över nästa jobb, widget: string, i18n: true }
+          - { name: brief_rubrik, label: Rubrik Brief, widget: string, i18n: true }
+          - { name: arbete_rubrik, label: Rubrik Vårt arbete, widget: string, i18n: true }
