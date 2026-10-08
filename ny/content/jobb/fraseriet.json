@@ -1,0 +1,180 @@
+{
+  "sv": {
+    "ordning": 1,
+    "bild": "/img/kunder/fraseriet-bg.jpg",
+    "titel": "Fraseriet",
+    "kund": "Fraseriet",
+    "uppdrag": "Social media, reklamfilm, branding",
+    "ingress": "Vi tog över Fraseriets sociala medier, moderniserade uttrycket och skapade en röd tråd med mer rörligt och strategiskt innehåll.",
+    "brief": "När StudionValvet tog över Fraseriets sociala medier hade kontot ca 760 följare och ett svårutläst flöde. Företaget eftersökte tydlig visuell riktning.",
+    "arbete": "Målet var att modernisera uttrycket, skapa en röd tråd och öka engagemanget genom mer rörligt och strategiskt innehåll.\n\nFör att visualisera det Fraseriet har att erbjuda gästerna såg vi vikten i att presentera produkterna på ett smakfullt och levande vis. Genom att fokusera på färg, textur och grafik ville vi representera Fraseriets konsekventa leverans i smaker och känsla.\n\nArbetet med Fraseriet är ett pågående uppdrag och vi arbetar aktivt tillsammans med kunden för att öka synligheten.",
+    "media": [
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/video/fraseriet-reklamfilm.jpg",
+            "video": "/video/fraseriet-reklamfilm.mp4",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "staende",
+        "objekt": [
+          {
+            "bild": "/video/fraseriet-social-1.jpg",
+            "video": "/video/fraseriet-social-1.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/video/fraseriet-social-2.jpg",
+            "video": "/video/fraseriet-social-2.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/video/fraseriet-social-3.jpg",
+            "video": "/video/fraseriet-social-3.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/video/fraseriet-social-4.jpg",
+            "video": "/video/fraseriet-social-4.mp4",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "ruta",
+        "objekt": [
+          {
+            "bild": "/img/kunder/fraseriet-orange-mayhem.png",
+            "alt": "Orange Mayhem",
+            "bakgrund": "#2e422c"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-pask.jpg",
+            "alt": "Öppettider påsken 2026"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-aggjakt.jpg",
+            "alt": "Äggjakt Uppsala"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/fraseriet-orange-mayhem-foto.jpg",
+            "alt": "Orange Mayhem"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-pollo-loco.jpg",
+            "alt": "Pollo Loco"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-bangkok-banger.jpg",
+            "alt": "Bangkok Banger"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-funky-falafel.jpg",
+            "alt": "Funky Falafel 2.0"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "titel": "Fraseriet",
+    "kund": "Fraseriet",
+    "uppdrag": "Social media, commercial, branding",
+    "ingress": "We took over Fraseriet's social media, modernized the look and created a common thread with more video and more strategic content.",
+    "brief": "When StudionValvet took over Fraseriet's social media, the account had around 760 followers and a feed that was hard to read. The company was looking for a clear visual direction.",
+    "arbete": "The goal was to modernize the look, create a common thread and increase engagement through more video and more strategic content.\n\nTo show what Fraseriet has to offer its guests, we wanted to present the food in a tasteful and vivid way. By focusing on color, texture and graphics, we set out to capture how consistently Fraseriet delivers on flavor and feel.\n\nFraseriet is an ongoing assignment, and we work closely with the client to keep growing their visibility.",
+    "media": [
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/video/fraseriet-reklamfilm.jpg",
+            "video": "/video/fraseriet-reklamfilm.mp4",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "staende",
+        "objekt": [
+          {
+            "bild": "/video/fraseriet-social-1.jpg",
+            "video": "/video/fraseriet-social-1.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/video/fraseriet-social-2.jpg",
+            "video": "/video/fraseriet-social-2.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/video/fraseriet-social-3.jpg",
+            "video": "/video/fraseriet-social-3.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/video/fraseriet-social-4.jpg",
+            "video": "/video/fraseriet-social-4.mp4",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "ruta",
+        "objekt": [
+          {
+            "bild": "/img/kunder/fraseriet-orange-mayhem.png",
+            "alt": "Orange Mayhem",
+            "bakgrund": "#2e422c"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-pask.jpg",
+            "alt": "Easter opening hours 2026"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-aggjakt.jpg",
+            "alt": "Easter egg hunt in Uppsala"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/fraseriet-orange-mayhem-foto.jpg",
+            "alt": "Orange Mayhem"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-pollo-loco.jpg",
+            "alt": "Pollo Loco"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-bangkok-banger.jpg",
+            "alt": "Bangkok Banger"
+          },
+          {
+            "bild": "/img/kunder/fraseriet-funky-falafel.jpg",
+            "alt": "Funky Falafel 2.0"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -69,7 +69,6 @@ p{margin:0 0 1em}
 .media img,.media video{width:100%;background:#eee}
 .media .tall{aspect-ratio:9/16;object-fit:cover}
 .media .sq{aspect-ratio:1;object-fit:contain;background:#f1efe9;padding:8%}
-.media .sq.dark{background:#2e422c}
 .media iframe{width:100%;border:0;background:#eee}
 .media .cap{font-size:15px;color:var(--muted);margin-top:-8px}
 @media (max-width:760px){.media .row{--n:2 !important}.media .row.one{--n:1 !important}}

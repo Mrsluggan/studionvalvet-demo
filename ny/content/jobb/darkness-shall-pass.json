@@ -1,0 +1,120 @@
+{
+  "sv": {
+    "ordning": 3,
+    "bild": "/img/kunder/viktor-bg.jpg",
+    "titel": "Darkness Shall Pass",
+    "kund": "Viktor Andersson",
+    "uppdrag": "Hemsida, dokumentation",
+    "ingress": "Studiematerial och dokumentation av ett kulturarrangemang om psykisk hälsa, kopplat till bokprojektet Darkness Shall Pass.",
+    "brief": "Ta fram studiematerial och dokumentera ett kulturarrangemang om psykisk hälsa, i samverkan med Etnograferna, för vidare kommunikation kopplat till arrangemanget och bokprojektet Darkness Shall Pass.",
+    "arbete": "Vi producerade studiematerialet i form av en hemsida och dokumenterade arrangemanget. Materialet följer låtarna en efter en.",
+    "lankar": [
+      {
+        "text": "Besök projektet i sin helhet",
+        "url": "http://darknessshallpass.my.canva.site/darkness-shall-pass-viktor-andersson"
+      }
+    ],
+    "media": [
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/viktor-banner.png",
+            "alt": "Viktor Andersson – Darkness Shall Pass"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/viktor-sida-4.png",
+            "alt": "Del 1: Introduktion"
+          },
+          {
+            "bild": "/img/kunder/viktor-sida-5.png",
+            "alt": "Låten P.P"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/viktor-sida-1.png",
+            "alt": "Låtarna Maniac, Fantasy och Wake up"
+          },
+          {
+            "bild": "/img/kunder/viktor-sida-2.png",
+            "alt": "Låtarna I can't run och Honest mistake"
+          },
+          {
+            "bild": "/img/kunder/viktor-sida-3.png",
+            "alt": "Låtarna Divine purpose och Darkness shall pass"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "titel": "Darkness Shall Pass",
+    "kund": "Viktor Andersson",
+    "uppdrag": "Website, documentation",
+    "ingress": "Study material and documentation of a cultural event about mental health, connected to the book project Darkness Shall Pass.",
+    "brief": "Produce study material and document a cultural event about mental health, in collaboration with Etnograferna, for further communication around the event and the book project Darkness Shall Pass.",
+    "arbete": "We produced the study material as a website and documented the event. The material follows the songs one by one.",
+    "lankar": [
+      {
+        "text": "See the full project",
+        "url": "http://darknessshallpass.my.canva.site/darkness-shall-pass-viktor-andersson"
+      }
+    ],
+    "media": [
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/viktor-banner.png",
+            "alt": "Viktor Andersson – Darkness Shall Pass"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/viktor-sida-4.png",
+            "alt": "Part 1: Introduction"
+          },
+          {
+            "bild": "/img/kunder/viktor-sida-5.png",
+            "alt": "The song P.P"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/viktor-sida-1.png",
+            "alt": "The songs Maniac, Fantasy and Wake up"
+          },
+          {
+            "bild": "/img/kunder/viktor-sida-2.png",
+            "alt": "The songs I can't run and Honest mistake"
+          },
+          {
+            "bild": "/img/kunder/viktor-sida-3.png",
+            "alt": "The songs Divine purpose and Darkness shall pass"
+          }
+        ]
+      }
+    ]
+  }
+}

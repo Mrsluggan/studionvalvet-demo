@@ -1,0 +1,4 @@
+# genereras av ny/_bygg.py
+/ny/**/index.html
+!/ny/admin/index.html
+.DS_Store

@@ -1,0 +1,181 @@
+# Admin för StudionValvet (Sveltia CMS). Innehållet sparas i ny/content/ och
+# sidan byggs om av .github/workflows/pages.yml efter varje ändring.
+backend:
+  name: github
+  repo: Mrsluggan/studionvalvet-demo
+  branch: main
+  base_url: https://sluggan-cms-auth.ericflyger.workers.dev
+  commit_messages:
+    create: 'Admin: lägg till {{collection}} "{{slug}}"'
+    update: 'Admin: uppdatera {{collection}} "{{slug}}"'
+    delete: 'Admin: ta bort {{collection}} "{{slug}}"'
+    uploadMedia: 'Admin: ladda upp "{{path}}"'
+    deleteMedia: 'Admin: ta bort "{{path}}"'
+
+site_url: https://valvet.sluggan.com
+display_url: https://valvet.sluggan.com/ny/
+logo:
+  src: /img/logo.png
+
+media_folder: ny/uppladdat
+public_folder: /ny/uppladdat
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+i18n:
+  structure: single_file
+  locales: [sv, en]
+  default_locale: sv
+
+collections:
+  - name: jobb
+    label: Jobb
+    label_singular: Jobb
+    description: Jobben på startsidan och under Våra jobb.
+    folder: ny/content/jobb
+    format: json
+    extension: json
+    create: true
+    delete: true
+    i18n: true
+    identifier_field: titel
+    slug: "{{titel}}"
+    summary: "{{titel}} – {{kund}}"
+    sortable_fields: [ordning, titel]
+    preview_path: "ny/jobb/{{slug}}/"
+    fields:
+      - { name: ordning, label: Ordning, widget: number, value_type: int, required: false, hint: "Lägst nummer visas först." }
+      - { name: titel, label: Rubrik, widget: string, i18n: true }
+      - { name: kund, label: Kund, widget: string, i18n: true }
+      - { name: uppdrag, label: Uppdrag, widget: string, i18n: true, hint: "T.ex. Social media, reklamfilm, branding" }
+      - { name: bild, label: Huvudbild, widget: image, hint: "Visas i helskärm på startsidan och under Våra jobb. Liggande bild, gärna minst 1600 px bred." }
+      - { name: ingress, label: Ingress, widget: text, i18n: true, hint: "En eller två meningar. Visas på startsidan och under Våra jobb." }
+      - { name: brief, label: Brief, widget: text, i18n: true, required: false, hint: "Tom rad mellan stycken." }
+      - { name: arbete, label: Vårt arbete, widget: text, i18n: true, required: false, hint: "Tom rad mellan stycken." }
+      - name: lankar
+        label: Länkar
+        label_singular: Länk
+        widget: list
+        required: false
+        i18n: duplicate
+        hint: Visas efter texten, t.ex. till Spotify eller kundens sida.
+        fields:
+          - { name: text, label: Text, widget: string, i18n: true }
+          - { name: url, label: Adress, widget: string, i18n: duplicate }
+      - name: media
+        label: Bilder och film
+        label_singular: Block
+        widget: list
+        required: false
+        i18n: duplicate
+        hint: Visas under texten, uppifrån och ner.
+        types:
+          - name: rad
+            label: Rad med bilder eller filmer
+            widget: object
+            summary: "{{stil}}"
+            fields:
+              - name: stil
+                label: Utseende
+                widget: select
+                default: vanlig
+                i18n: duplicate
+                options:
+                  - { label: Vanlig, value: vanlig }
+                  - { label: "Stående (9:16), t.ex. reels", value: staende }
+                  - { label: "Ruta, för loggor och grafik", value: ruta }
+              - name: objekt
+                label: Bilder
+                label_singular: Bild
+                widget: list
+                i18n: duplicate
+                hint: Alla bilder i samma rad visas bredvid varandra.
+                fields:
+                  - { name: bild, label: Bild, widget: image, required: false, i18n: duplicate, hint: "För film: stillbilden som visas innan filmen startar." }
+                  - { name: video, label: Film (valfri), widget: file, required: false, i18n: duplicate, hint: "MP4, helst under 50 MB. Längre filmer läggs hellre på YouTube eller Vimeo och bäddas in." }
+                  - { name: alt, label: Beskrivning för skärmläsare, widget: string, required: false, i18n: true }
+                  - { name: bakgrund, label: Bakgrundsfärg (bara för Ruta), widget: string, required: false, i18n: duplicate, hint: "T.ex. #2e422c" }
+          - name: inbaddning
+            label: Inbäddning (YouTube, Vimeo, Spotify, Instagram)
+            widget: object
+            summary: "{{url}}"
+            fields:
+              - { name: url, label: Länk, widget: string, i18n: duplicate, hint: "Klistra in länken som den ser ut i webbläsaren." }
+              - { name: bild, label: Bild bredvid (valfri), widget: image, required: false, i18n: duplicate }
+              - { name: alt, label: Beskrivning för skärmläsare, widget: string, required: false, i18n: true }
+          - name: bildtext
+            label: Bildtext
+            widget: object
+            summary: "{{text}}"
+            fields:
+              - { name: text, label: Text, widget: string, i18n: true }
+
+  - name: kunder
+    label: Kunder
+    label_singular: Kund
+    description: Loggorna på sidan Kunder.
+    folder: ny/content/kunder
+    format: json
+    extension: json
+    create: true
+    delete: true
+    identifier_field: namn
+    slug: "{{namn}}"
+    sortable_fields: [ordning, namn]
+    fields:
+      - { name: ordning, label: Ordning, widget: number, value_type: int, required: false, hint: "Lägst nummer visas först." }
+      - { name: namn, label: Namn, widget: string }
+      - { name: logga, label: Logga, widget: image, required: false, hint: "PNG med genomskinlig bakgrund. Visas vit på sidan. Utan logga visas namnet i text." }
+      - name: jobb
+        label: Länkar till jobb
+        widget: relation
+        collection: jobb
+        value_field: "{{slug}}"
+        search_fields: [titel]
+        display_fields: [titel]
+        required: false
+
+  - name: sidor
+    label: Sidor
+    description: Texter på startsidan, Om oss och Kontakt.
+    i18n: true
+    files:
+      - name: start
+        label: Startsidan
+        file: ny/content/sidor/start.json
+        i18n: true
+        fields:
+          - { name: rubrik, label: Rubrik över filmen, widget: text, i18n: true, hint: "Ny rad blir radbrytning." }
+      - name: om-oss
+        label: Om oss
+        file: ny/content/sidor/om-oss.json
+        i18n: true
+        fields:
+          - { name: bild, label: Bild överst, widget: image }
+          - { name: ingress, label: Ingress, widget: text, i18n: true }
+          - { name: text, label: Text, widget: text, i18n: true, hint: "Tom rad mellan stycken. Två stycken blir två spalter." }
+          - name: tjanster
+            label: Det här gör vi
+            label_singular: Tjänst
+            widget: list
+            i18n: duplicate
+            fields:
+              - { name: namn, label: Namn, widget: string, i18n: true }
+              - { name: text, label: Text, widget: text, i18n: true }
+              - { name: jobb, label: Länkar till jobb, widget: relation, collection: jobb, value_field: "{{slug}}", search_fields: [titel], display_fields: [titel], required: false, i18n: duplicate }
+      - name: kontakt
+        label: Kontakt
+        file: ny/content/sidor/kontakt.json
+        i18n: false
+        fields:
+          - { name: adress, label: Adress, widget: text, hint: "Används även i sidfoten." }
+          - { name: epost, label: E-post, widget: string }
+          - name: personer
+            label: Personer
+            label_singular: Person
+            widget: list
+            fields:
+              - { name: namn, label: Namn, widget: string }
+              - { name: telefon, label: Telefon, widget: string, hint: "Skriv som 070-123 45 67. På engelska visas det som +46 70 123 45 67." }

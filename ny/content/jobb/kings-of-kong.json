@@ -1,0 +1,96 @@
+{
+  "sv": {
+    "ordning": 5,
+    "bild": "/video/musik-video-1.jpg",
+    "titel": "Kings of Kong",
+    "kund": "Kings of Kong, Topel Beats",
+    "uppdrag": "Musik- och ljudproduktion",
+    "ingress": "Inhouse-produktioner där ljudet skräddarsys efter situationen du som artist eller ni som verksamhet befinner er i.",
+    "brief": "Musik och ljud som förstärker berättelser, varumärken och helhetsupplevelser.",
+    "arbete": "Med inhouse-produktioner från bl.a. Topel Beats och Kings of Kong finns det hos oss utrymme att skräddarsy ljudproduktionen efter situationen du som artist eller ni som verksamhet befinner er i – med full kreativ kontroll från idé till färdig produktion.",
+    "lankar": [
+      {
+        "text": "Spotify",
+        "url": "https://open.spotify.com/artist/1QbrSZbx4FD7Up6G8raE9Q"
+      },
+      {
+        "text": "Topel Beats på BeatStars",
+        "url": "https://www.beatstars.com/topelbeats"
+      }
+    ],
+    "media": [
+      {
+        "type": "inbaddning",
+        "url": "https://open.spotify.com/track/66zWHne0Lw9h2wmRUUfgZ9",
+        "bild": "/img/tjanster/musik-kings-of-kong.png",
+        "alt": "Kings of Kong på Spotify"
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/video/musik-video-1.jpg",
+            "video": "/video/musik-video-1.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/video/musik-video-2.jpg",
+            "video": "/video/musik-video-2.mp4",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "bildtext",
+        "text": "Video: Simonapaulina"
+      }
+    ]
+  },
+  "en": {
+    "titel": "Kings of Kong",
+    "kund": "Kings of Kong, Topel Beats",
+    "uppdrag": "Music and sound production",
+    "ingress": "In-house productions where the sound is tailored to where you are as an artist or a business.",
+    "brief": "Music and sound that strengthen stories, brands and experiences.",
+    "arbete": "With in-house productions from Topel Beats and Kings of Kong, among others, we have room to tailor the sound to where you are as an artist or a business – with full creative control from idea to finished production.",
+    "lankar": [
+      {
+        "text": "Spotify",
+        "url": "https://open.spotify.com/artist/1QbrSZbx4FD7Up6G8raE9Q"
+      },
+      {
+        "text": "Topel Beats on BeatStars",
+        "url": "https://www.beatstars.com/topelbeats"
+      }
+    ],
+    "media": [
+      {
+        "type": "inbaddning",
+        "url": "https://open.spotify.com/track/66zWHne0Lw9h2wmRUUfgZ9",
+        "bild": "/img/tjanster/musik-kings-of-kong.png",
+        "alt": "Kings of Kong on Spotify"
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/video/musik-video-1.jpg",
+            "video": "/video/musik-video-1.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/video/musik-video-2.jpg",
+            "video": "/video/musik-video-2.mp4",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "bildtext",
+        "text": "Video: Simonapaulina"
+      }
+    ]
+  }
+}

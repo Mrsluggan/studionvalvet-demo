@@ -1,0 +1,142 @@
+{
+  "sv": {
+    "ordning": 6,
+    "bild": "/img/tjanster/foto-miljo-ljus.jpg",
+    "titel": "Foto i studion",
+    "kund": "Flera kunder",
+    "uppdrag": "Produktfoto, produktvideo, miljöbilder",
+    "ingress": "Allt från produktfotografering till miljöbilder och annat visuellt material som förmedlar rätt känsla och lyfter kommunikationen.",
+    "brief": "Bilder och visuellt material som förmedlar rätt känsla och lyfter kommunikationen.",
+    "arbete": "Vi erbjuder allt från produktfotografering till miljöbilder och annat visuellt material som kan stärka ert varumärke – med egen studio i Gamla Riksbankshuset.",
+    "media": [
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/tjanster/foto-kedja.jpg",
+            "alt": "Guldkedja"
+          },
+          {
+            "bild": "/img/tjanster/foto-tandare.jpg",
+            "alt": "Tändare"
+          },
+          {
+            "bild": "/img/tjanster/foto-telefon.jpg",
+            "alt": "Grön telefonlur"
+          },
+          {
+            "bild": "/img/tjanster/foto-yinyang.jpg",
+            "alt": "Yin-yang-kulor i ask"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "staende",
+        "objekt": [
+          {
+            "bild": "/video/foto-produktvideo.jpg",
+            "video": "/video/foto-produktvideo.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/img/tjanster/foto-mat.jpg",
+            "alt": "Matfoto"
+          },
+          {
+            "bild": "/img/tjanster/foto-studio-kedja.jpg",
+            "alt": "Fotografering i studion"
+          },
+          {
+            "bild": "/img/tjanster/foto-studio-burk.jpg",
+            "alt": "Produktfoto i studion"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/tjanster/foto-miljo-ljus.jpg",
+            "alt": "Uteservering i kvällsljus"
+          },
+          {
+            "bild": "/img/tjanster/foto-miljo-fonster.jpg",
+            "alt": "Fönster i svartvitt"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "titel": "Studio photography",
+    "kund": "Several clients",
+    "uppdrag": "Product photos, product video, location shots",
+    "ingress": "Everything from product photography to location shots and other visual material that sets the right mood and lifts your communication.",
+    "brief": "Images and visual material that convey the right feeling and lift your communication.",
+    "arbete": "We offer everything from product photography to location shots and other visual material that can strengthen your brand – with our own studio in Gamla Riksbankshuset.",
+    "media": [
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/tjanster/foto-kedja.jpg",
+            "alt": "Gold chain"
+          },
+          {
+            "bild": "/img/tjanster/foto-tandare.jpg",
+            "alt": "Lighter"
+          },
+          {
+            "bild": "/img/tjanster/foto-telefon.jpg",
+            "alt": "Green telephone receiver"
+          },
+          {
+            "bild": "/img/tjanster/foto-yinyang.jpg",
+            "alt": "Yin-yang balls in a box"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "staende",
+        "objekt": [
+          {
+            "bild": "/video/foto-produktvideo.jpg",
+            "video": "/video/foto-produktvideo.mp4",
+            "alt": ""
+          },
+          {
+            "bild": "/img/tjanster/foto-mat.jpg",
+            "alt": "Food photo"
+          },
+          {
+            "bild": "/img/tjanster/foto-studio-kedja.jpg",
+            "alt": "Shooting in the studio"
+          },
+          {
+            "bild": "/img/tjanster/foto-studio-burk.jpg",
+            "alt": "Product shot in the studio"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/tjanster/foto-miljo-ljus.jpg",
+            "alt": "Outdoor seating in evening light"
+          },
+          {
+            "bild": "/img/tjanster/foto-miljo-fonster.jpg",
+            "alt": "Window in black and white"
+          }
+        ]
+      }
+    ]
+  }
+}

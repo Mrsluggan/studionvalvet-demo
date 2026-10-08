@@ -1,0 +1,65 @@
+{
+  "sv": {
+    "bild": "/img/riksbankshuset.jpg",
+    "ingress": "Vi är en kreativ partner för varumärken, artister och företag som vill ha hjälp med branding, content och marknadsföring i ett sammanhållet grepp.",
+    "text": "Genom att kombinera design, film, musik och innehåll i samma team kan vi ta idéer hela vägen till färdig produktion. Med bakgrund inom film- och tv-produktion samt medie- och kommunikationsvetenskap förenar vi kreativt skapande med förståelse för hur budskap engagerar och bygger varumärken. Vi arbetar nära våra kunder, är flexibla i vårt arbetssätt och drivs av att skapa lösningar som både syns, hörs och känns.\n\nMed kontor och studio beläget i det gamla Riksbankshuset i centrala Uppsala ser vi till att alltid finnas nära och tillgängliga för våra kunder, samarbetspartners och andra som är intresserade av verksamheten. Vi ligger ett stenkast från Centralstationen och har därför närhet till Uppsala, Stockholm och kringliggande orter.",
+    "tjanster": [
+      {
+        "namn": "Filmproduktion",
+        "text": "Vi producerar film som berättar er historia på ett engagerande och visuellt starkt sätt – från idé och manus till inspelning, redigering och färdig leverans.",
+        "jobb": "fraseriet"
+      },
+      {
+        "namn": "Content & marknadsföring",
+        "text": "Vi skapar innehåll och kampanjer som engagerar, bygger relationer och stärker er synlighet i digitala och sociala kanaler.",
+        "jobb": "fraseriet"
+      },
+      {
+        "namn": "Varumärke & design",
+        "text": "Vi utvecklar visuella identiteter och design som ger ert varumärke en tydlig, konsekvent och professionell närvaro i alla kanaler.",
+        "jobb": "topel-beats"
+      },
+      {
+        "namn": "Foto & visuellt material",
+        "text": "Vi producerar bilder och visuellt material som förmedlar rätt känsla och lyfter er kommunikation.",
+        "jobb": "studio"
+      },
+      {
+        "namn": "Musik & ljudproduktion",
+        "text": "Vi skapar musik och ljud som förstärker berättelser, varumärken och helhetsupplevelser – med inhouse musikproduktion som ger full kreativ kontroll.",
+        "jobb": "kings-of-kong"
+      }
+    ]
+  },
+  "en": {
+    "ingress": "We're a creative partner for brands, artists and companies who want branding, content and marketing brought together as one coherent whole.",
+    "text": "By combining design, film, music and content in one team, we can take ideas all the way to finished production. With backgrounds in film and TV production as well as media and communication studies, we pair creative craft with an understanding of how messages engage people and build brands. We work closely with our clients, stay flexible in how we work, and are driven by creating solutions that are seen, heard and felt.\n\nWith our office and studio in the old Riksbank building, Gamla Riksbankshuset, in central Uppsala, we're always close at hand for clients, partners and anyone curious about what we do. We're a stone's throw from Uppsala Central Station, which puts Uppsala, Stockholm and the surrounding area within easy reach.",
+    "tjanster": [
+      {
+        "namn": "Film production",
+        "text": "We produce films that tell your story in an engaging and visually striking way – from idea and script to shoot, edit and final delivery.",
+        "jobb": "fraseriet"
+      },
+      {
+        "namn": "Content & marketing",
+        "text": "We create content and campaigns that engage, build relationships and boost your visibility across digital and social channels.",
+        "jobb": "fraseriet"
+      },
+      {
+        "namn": "Brand & design",
+        "text": "We develop visual identities and design that give your brand a clear, consistent and professional presence in every channel.",
+        "jobb": "topel-beats"
+      },
+      {
+        "namn": "Photo & visual content",
+        "text": "We produce images and visual material that convey the right feeling and lift your communication.",
+        "jobb": "studio"
+      },
+      {
+        "namn": "Music & sound production",
+        "text": "We create music and sound that strengthen stories, brands and experiences – with in-house music production that gives full creative control.",
+        "jobb": "kings-of-kong"
+      }
+    ]
+  }
+}

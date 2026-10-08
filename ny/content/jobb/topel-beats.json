@@ -1,0 +1,100 @@
+{
+  "sv": {
+    "ordning": 2,
+    "bild": "/img/kunder/topel-bg.jpg",
+    "titel": "Topel Beats",
+    "kund": "Topel Beats",
+    "uppdrag": "Branding, logotypfamilj, merch",
+    "ingress": "En sammanhållen logotypfamilj för en artist som ser sig själv som en utomjording på uppdrag att sprida sin musik inom hiphop-scenen.",
+    "brief": "Projektet började som en förfining av ett befintligt varumärke. Artisten, som är en del av vårt team, ser sig själv som en utomjording på ett uppdrag att sprida sin musik inom hiphop-scenen.",
+    "arbete": "Genom att lyssna på hans idéer och musik översatte vi visionen till en sammanhållen logotypfamilj som tydliggör hans identitet och bevarar karaktären bakom uttrycket.",
+    "media": [
+      {
+        "type": "rad",
+        "stil": "ruta",
+        "objekt": [
+          {
+            "bild": "/img/kunder/topel-logo-1.png",
+            "alt": "Topel Beats logotyp"
+          },
+          {
+            "bild": "/img/kunder/topel-logo-2.png",
+            "alt": "Topel Beats logotyp, grön"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "ruta",
+        "objekt": [
+          {
+            "bild": "/img/kunder/topel-logo-3.png",
+            "alt": "Topel Beats logotyp, röd"
+          },
+          {
+            "bild": "/img/kunder/topel-ufo.png",
+            "alt": "Topel Beats ufo-symbol"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/topel-merch.jpg",
+            "alt": "Hoodies med Topel Beats logotyp"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "titel": "Topel Beats",
+    "kund": "Topel Beats",
+    "uppdrag": "Branding, logo family, merch",
+    "ingress": "A cohesive logo family for an artist who sees himself as an alien on a mission to spread his music through the hip-hop scene.",
+    "brief": "The project started as a refinement of an existing brand. The artist, who is part of our team, sees himself as an alien on a mission to spread his music through the hip-hop scene.",
+    "arbete": "By listening to his ideas and his music, we translated the vision into a cohesive logo family that makes his identity clear while keeping the character behind it.",
+    "media": [
+      {
+        "type": "rad",
+        "stil": "ruta",
+        "objekt": [
+          {
+            "bild": "/img/kunder/topel-logo-1.png",
+            "alt": "Topel Beats logo"
+          },
+          {
+            "bild": "/img/kunder/topel-logo-2.png",
+            "alt": "Topel Beats logo, green"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "ruta",
+        "objekt": [
+          {
+            "bild": "/img/kunder/topel-logo-3.png",
+            "alt": "Topel Beats logo, red"
+          },
+          {
+            "bild": "/img/kunder/topel-ufo.png",
+            "alt": "Topel Beats UFO symbol"
+          }
+        ]
+      },
+      {
+        "type": "rad",
+        "stil": "vanlig",
+        "objekt": [
+          {
+            "bild": "/img/kunder/topel-merch.jpg",
+            "alt": "Hoodies with the Topel Beats logo"
+          }
+        ]
+      }
+    ]
+  }
+}

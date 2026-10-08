@@ -1,0 +1,18 @@
+{
+  "adress": "Gamla Riksbankshuset\nKungsängsgatan 17–19\n753 32 Uppsala",
+  "epost": "studionvalvet@gmail.com",
+  "personer": [
+    {
+      "namn": "David",
+      "telefon": "070-891 32 14"
+    },
+    {
+      "namn": "Younes",
+      "telefon": "072-044 47 07"
+    },
+    {
+      "namn": "Topel",
+      "telefon": "072-312 90 02"
+    }
+  ]
+}
