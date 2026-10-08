@@ -1,10 +1,10 @@
 {
   "sv": {
     "ordning": 3,
-    "bild": "/ny/uppladdat/viktor-bg.jpg",
     "titel": "Darkness Shall Pass",
     "kund": "Viktor Andersson",
     "uppdrag": "Hemsida, dokumentation",
+    "bild": "/ny/uppladdat/viktor-banner.png",
     "ingress": "Studiematerial och dokumentation av ett kulturarrangemang om psykisk hälsa, kopplat till bokprojektet Darkness Shall Pass.",
     "brief": "Ta fram studiematerial och dokumentera ett kulturarrangemang om psykisk hälsa, i samverkan med Etnograferna, för vidare kommunikation kopplat till arrangemanget och bokprojektet Darkness Shall Pass.",
     "arbete": "Vi producerade studiematerialet i form av en hemsida och dokumenterade arrangemanget. Materialet följer låtarna en efter en.",
@@ -21,7 +21,9 @@
         "objekt": [
           {
             "bild": "/ny/uppladdat/viktor-banner.png",
-            "alt": "Viktor Andersson – Darkness Shall Pass"
+            "video": "",
+            "alt": "Viktor Andersson – Darkness Shall Pass",
+            "bakgrund": ""
           }
         ]
       },
@@ -31,11 +33,15 @@
         "objekt": [
           {
             "bild": "/ny/uppladdat/viktor-sida-4.png",
-            "alt": "Del 1: Introduktion"
+            "video": "",
+            "alt": "Del 1: Introduktion",
+            "bakgrund": ""
           },
           {
             "bild": "/ny/uppladdat/viktor-sida-5.png",
-            "alt": "Låten P.P"
+            "video": "",
+            "alt": "Låten P.P",
+            "bakgrund": ""
           }
         ]
       },
@@ -45,15 +51,21 @@
         "objekt": [
           {
             "bild": "/ny/uppladdat/viktor-sida-1.png",
-            "alt": "Låtarna Maniac, Fantasy och Wake up"
+            "video": "",
+            "alt": "Låtarna Maniac, Fantasy och Wake up",
+            "bakgrund": ""
           },
           {
             "bild": "/ny/uppladdat/viktor-sida-2.png",
-            "alt": "Låtarna I can't run och Honest mistake"
+            "video": "",
+            "alt": "Låtarna I can't run och Honest mistake",
+            "bakgrund": ""
           },
           {
             "bild": "/ny/uppladdat/viktor-sida-3.png",
-            "alt": "Låtarna Divine purpose och Darkness shall pass"
+            "video": "",
+            "alt": "Låtarna Divine purpose och Darkness shall pass",
+            "bakgrund": ""
           }
         ]
       }
@@ -79,7 +91,9 @@
         "objekt": [
           {
             "bild": "/ny/uppladdat/viktor-banner.png",
-            "alt": "Viktor Andersson – Darkness Shall Pass"
+            "video": "",
+            "alt": "Viktor Andersson – Darkness Shall Pass",
+            "bakgrund": ""
           }
         ]
       },
@@ -89,11 +103,15 @@
         "objekt": [
           {
             "bild": "/ny/uppladdat/viktor-sida-4.png",
-            "alt": "Part 1: Introduction"
+            "video": "",
+            "alt": "Part 1: Introduction",
+            "bakgrund": ""
           },
           {
             "bild": "/ny/uppladdat/viktor-sida-5.png",
-            "alt": "The song P.P"
+            "video": "",
+            "alt": "The song P.P",
+            "bakgrund": ""
           }
         ]
       },
@@ -103,15 +121,21 @@
         "objekt": [
           {
             "bild": "/ny/uppladdat/viktor-sida-1.png",
-            "alt": "The songs Maniac, Fantasy and Wake up"
+            "video": "",
+            "alt": "The songs Maniac, Fantasy and Wake up",
+            "bakgrund": ""
           },
           {
             "bild": "/ny/uppladdat/viktor-sida-2.png",
-            "alt": "The songs I can't run and Honest mistake"
+            "video": "",
+            "alt": "The songs I can't run and Honest mistake",
+            "bakgrund": ""
           },
           {
             "bild": "/ny/uppladdat/viktor-sida-3.png",
-            "alt": "The songs Divine purpose and Darkness shall pass"
+            "video": "",
+            "alt": "The songs Divine purpose and Darkness shall pass",
+            "bakgrund": ""
           }
         ]
       }
